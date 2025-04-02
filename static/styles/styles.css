@@ -2,7 +2,7 @@
 
 body {
     background-color: azure;
-    color: darkslategray;
+    color: #302401;
     font-size: large;
 }
 
@@ -11,12 +11,34 @@ main {
     max-width: 80%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+a {
+    color: rgb(0, 153, 255);
+}
+
 .red-text {
     color: rgb(216, 62, 62)
 }
 
 .blue-text {
     color: rgb(77, 77, 219)
+}
+
+#planetpedia {
+    color: #1c3678;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#planetpedia:hover {
+    color: #1f4bbb;
+}
+
+.nav-link {
+    font-weight: 500;
 }
 
 /* You can add more styles here */

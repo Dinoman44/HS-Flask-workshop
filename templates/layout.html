@@ -7,25 +7,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/static/styles/styles.css" rel="stylesheet">
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
+        <link href="/static/styles/styles.css" rel="stylesheet">
+
         <title>PlanetPedia | {% block title %}{% endblock %}</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-light bg-light border">
-            <a class="navbar-brand" href="/">PlanetPedia</a>
+            <a class="navbar-brand" id="planetpedia" href="/">PlanetPedia</a>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav mr-auto mt-2">
-                    <li class="nav-item"><a class="nav-link" href="/planets">Planets</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/dwarf-planets">Dwarf Planets</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/random-fact">Random Facts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/planets" style="color: rgb(94, 77, 219);">Planets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/dwarf-planets" style="color: rgb(94, 77, 219);">Dwarf Planets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/random-fact" style="color: rgb(94, 77, 219);">Random Facts</a></li>
                 </ul>
                 <ul class="navbar-nav ml-auto mt-2">
-                    <li class="nav-item"><a class="nav-link" href="/leave">Leave site</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/leave" style="color: rgb(122, 77, 219);">Leave site</a></li>
                 </ul>
             </div>
         </nav>

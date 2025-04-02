@@ -34,6 +34,7 @@ init_data(PLANET_DATA_MD, PLANET_DATA_HTML, DWARF_PLANETS_MD, DWARF_PLANETS_HTML
 #############
 @app.route("/")
 def hello():
+    return render_template("index.html")
     return "hello" # TODO 1: show the home page
 
 
